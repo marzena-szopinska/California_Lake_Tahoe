@@ -3,10 +3,6 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: orange;
-}
-
 h1 {
   font-size: 90px;
   color: #fff;
@@ -21,9 +17,21 @@ h3 {
   color: #48525c;
 }
 
-#primary-content {
-/* for better view of primary content (temporary style) */
-  border: 3px solid red;
+.main-header {
+  background-color: orange;
+}
+
+.title {
+  color: #fff;
+  font-size: 26px;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgray;
 }
 
 #main-footer {
@@ -32,4 +40,25 @@ h3 {
   padding-bottom: 60px;
   /* add bottom border to the footer */
   border-bottom: solid 10px orange;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+:focus {
+  color: #fff;
+  background-color: orange;
 }
