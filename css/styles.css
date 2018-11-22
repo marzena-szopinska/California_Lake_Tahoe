@@ -20,3 +20,16 @@ h3 {
   font-size: 20px;
   color: #48525c;
 }
+
+#primary-content {
+/* for better view of primary content (temporary style) */
+  border: 3px solid red;
+}
+
+#main-footer {
+  /* make some space between the footer and the rest of the content */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* add bottom border to the footer */
+  border-bottom: solid 10px orange;
+}
