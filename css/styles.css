@@ -75,7 +75,9 @@ img {
   height: 850px;
   padding-top: 170px;
   /* set the background for the main header */
-  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -156,6 +158,9 @@ li {
   margin: 105px 0 60px;
   /* add a box shadow to the container */
   box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, .8);
+  /* round the corners */
+  border-radius: 10px;
+  text-align: left;
 }
 
 /* --- FLOATS --- */
